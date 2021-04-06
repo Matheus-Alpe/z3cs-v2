@@ -26,13 +26,6 @@ export default {
                 nome: 'Matheus Alves Pereira',
                 time: 'DEV - ATD',
                 dataNascimento: '20/04/1996',
-                endereco: {
-                    rua: 'tal',
-                    numero: 12,
-                    amigo: {
-                        nome: 'lucas'
-                    }
-                }
             },
 
             quantidadeAlteracoes: 0,
