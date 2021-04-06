@@ -31,7 +31,7 @@ export default {
             this.contador = 0;
         },
 
-        imprimeContainer() {
+        imprime() {
             console.log('RED CONTAINER')
         }
     }
