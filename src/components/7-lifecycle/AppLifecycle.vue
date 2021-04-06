@@ -1,6 +1,8 @@
 <template>
     <div class="content-container">
         <sub class="component-title">Lifecycle:</sub>
+        <img src="../../assets/lifecycle.png" alt="lifecycle image">
+
         <h1>{{ titulo }}</h1>
         <button @click="alterarTitulo">Alterar titulo</button>
         <button @click="destruirInstancia">Destruir instância</button>
@@ -58,3 +60,10 @@ export default {
     }
 };
 </script>
+
+<style lang="scss" scoped>
+img {
+    margin-top: 20px;
+    width: 90%;
+}
+</style>

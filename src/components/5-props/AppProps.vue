@@ -1,11 +1,9 @@
 <template>
     <div class="content-container">
         <sub class="component-title">Props:</sub>
-        <user-app :propUser="user" />
-        <user-app />
-        <user-app v-bind:propUser="user"></user-app>
-        <UserApp :propUser="user" />
-        <UserApp v-bind:propUser="user"></UserApp>
+        <UserApp v-bind:propUser="user" />
+        <!-- <UserApp /> -->
+        <UserApp :propUser="user"></UserApp>
     </div>
 </template>
 

@@ -1,7 +1,8 @@
 <template>
     <div class="content-container">
         <sub class="component-title">Emits:</sub>
-        <UserInput @add-user="pushUser" />
+        <UserInput v-on:add-user="pushUser" />
+        <!-- <UserInput @add-user="pushUser" /> -->
 
 
         <UserApp
