@@ -40,14 +40,14 @@ export default {
 
         //watch da propriedade 'quantidadeAlteracoes' em data
         quantidadeAlteracoes(novaQuantidade, antigaQuantidade) {
-            console.log(`Novo === ${novaQuantidade}   ||   Antigo === ${antigaQuantidade}`);
+            console.log(`quantidadeAlteracoes - Novo === ${novaQuantidade}   ||   Antigo === ${antigaQuantidade}`);
         },
 
 
         //watch de todas propriedades do objeto 'user'
         user: {
             handler: function () {
-                console.log('<< Atributo do User foi alterado! >>');
+                console.log('<< Atributo do _User_ foi alterado! >>');
             },
             // handler: 'getUser',
             deep: true,
