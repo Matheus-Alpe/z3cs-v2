@@ -1,8 +1,8 @@
 <template>
     <div class="content-container">
         <sub class="component-title">Props:</sub>
+        <UserApp />
         <UserApp v-bind:propUser="user" />
-        <!-- <UserApp /> -->
         <UserApp :propUser="user"></UserApp>
     </div>
 </template>

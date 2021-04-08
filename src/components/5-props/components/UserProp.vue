@@ -11,13 +11,30 @@
 export default {
     name: 'UserProp',
 
-    //------- props: ['propUser']
     props: {
-        //------------------------------- propUser: Object,
-        //------------------------------- propUser: [Object, String],
+
+        //------- props: ['propUser']
+
+
+        //------- propUser: Object
+
+
+
+        //------- propUser: [Object, String]
+
+
+
+
+
+
+
+
+
+
+
+
         propUser: {
             type: Object,
-            // required: true,
             default() {
                 return {
                     nome: 'Default',
@@ -25,6 +42,8 @@ export default {
                     dataNascimento: '01/01/2000'
                 }
             },
+            // required: true,
+
             // validator(user) {
             //     return user['nome'].includes('Matheus')
             // }

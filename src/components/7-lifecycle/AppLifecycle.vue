@@ -1,6 +1,6 @@
 <template>
     <div class="content-container">
-        <sub class="component-title">Lifecycle:</sub>
+        <sub class="component-title">Lifecycle Hooks:</sub>
         <img src="../../assets/lifecycle.png" alt="lifecycle image">
 
         <h1>{{ titulo }}</h1>
