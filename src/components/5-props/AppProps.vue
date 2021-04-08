@@ -2,8 +2,8 @@
     <div class="content-container">
         <sub class="component-title">Props:</sub>
         <UserApp />
-        <UserApp v-bind:propUser="user" />
-        <UserApp :propUser="user"></UserApp>
+        <UserApp v-bind:customPropUser="user" />
+        <UserApp :customPropUser="user"></UserApp>
     </div>
 </template>
 

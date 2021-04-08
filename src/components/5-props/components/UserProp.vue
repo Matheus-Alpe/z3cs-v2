@@ -1,9 +1,9 @@
 <template>
     <div class="content-container">
         <sub class="component-title">Component: User</sub>
-        <h1>Nome: {{ propUser.nome }}</h1>
-        <h2>Time: {{ propUser.time }}</h2>
-        <h5>Data Nascimento: {{ propUser.dataNascimento }}</h5>
+        <h1>Nome: {{ customPropUser.nome }}</h1>
+        <h2>Time: {{ customPropUser.time }}</h2>
+        <h5>Data Nascimento: {{ customPropUser.dataNascimento }}</h5>
     </div>
 </template>
 
@@ -13,17 +13,14 @@ export default {
 
     props: {
 
-        //------- props: ['propUser']
+        //------- props: ['customPropUser']
 
 
-        //------- propUser: Object
-
-
-
-        //------- propUser: [Object, String]
+        //------- customPropUser: Object
 
 
 
+        //------- customPropUser: [Object, String]
 
 
 
@@ -33,7 +30,10 @@ export default {
 
 
 
-        propUser: {
+
+
+
+        customPropUser: {
             type: Object,
             default() {
                 return {
