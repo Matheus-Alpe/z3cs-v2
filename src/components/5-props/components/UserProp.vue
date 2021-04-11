@@ -11,9 +11,8 @@
 export default {
     name: 'UserProp',
 
+    //------- props: ['customPropUser']
     props: {
-
-        //------- props: ['customPropUser']
 
 
         //------- customPropUser: Object
@@ -21,10 +20,6 @@ export default {
 
 
         //------- customPropUser: [Object, String]
-
-
-
-
 
 
 
@@ -53,7 +48,7 @@ export default {
 
 /*
 
-    Tipos para checagem:
+    Tipos:
 
     -   String
     -   Number

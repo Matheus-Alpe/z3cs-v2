@@ -1,9 +1,10 @@
 <template>
     <div class="content-container">
         <sub class="component-title">Method:</sub>
+
         <h1>Contador: {{ contador }}</h1>
-        <div>
-            <button v-on:click="incrementCount">Incrementar</button>
+        <div class="red" @click="imprime">
+            <button v-on:click.stop="incrementCount">Incrementar</button>
             <button @click="resetCount('reset param', $event)">Resetar</button>
         </div>
     </div>

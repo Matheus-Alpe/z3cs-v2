@@ -49,17 +49,11 @@ export default {
             handler: function () {
                 console.log('<< Atributo do _User_ foi alterado! >>');
             },
-            // handler: 'getUser',
             deep: true,
         },
 
     },
 
-    // methods: {
-    //     getUser() {
-    //         console.log('returning user using a method...')
-    //     }
-    // }
 }
 </script>
 

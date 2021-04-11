@@ -14,9 +14,9 @@
             </select>
         </div>
 
-        <!-- <keep-alive> -->
+        <keep-alive>
             <component :is="selectedComponent"></component>
-        <!-- </keep-alive> -->
+        </keep-alive>
 
     </div>
 </template>

@@ -13,10 +13,14 @@
             <div class="input-field">
                 <label for="dataNasc">Data Nascimento:</label>
                 <input type="date" id="dataNasc" v-model="user.dataNascimento">
+
+
                 <div class="button-field">
                     <button class="reset" @click.prevent="resetUser">Reset</button>
                     <button class="add" @click.prevent="emitAddUser">Add User</button>
                 </div>
+
+
             </div>
         </form>
     </div>
@@ -54,7 +58,11 @@ export default {
             }
 
             console.log('emitiu o evento "add-user"')
+
+            //============================
             this.$emit('add-user', user);
+            //============================
+
             this.resetUser();
         },
 
