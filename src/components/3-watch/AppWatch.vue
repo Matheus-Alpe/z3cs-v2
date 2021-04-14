@@ -47,7 +47,7 @@ export default {
         //watch de todas propriedades do objeto 'user'
         user: {
             handler: function () {
-                console.log('<< Atributo do _User_ foi alterado! >>');
+                // console.log('<< Atributo do _User_ foi alterado! >>');
             },
             deep: true,
         },

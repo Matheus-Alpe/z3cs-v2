@@ -41,11 +41,7 @@ export default {
     },
 
     methods: {
-        resetUser() {
-            this.user.nome = '';
-            this.user.time = '';
-            this.user.dataNascimento = '';
-        },
+
 
         emitAddUser() {
             if (!this.user.nome || !this.user.time || !this.user.dataNascimento) {
@@ -59,11 +55,24 @@ export default {
 
             console.log('emitiu o evento "add-user"')
 
+
             //============================
             this.$emit('add-user', user);
             //============================
 
+
             this.resetUser();
+        },
+
+
+
+
+
+
+        resetUser() {
+            this.user.nome = '';
+            this.user.time = '';
+            this.user.dataNascimento = '';
         },
 
         normalizeDataNasc() {

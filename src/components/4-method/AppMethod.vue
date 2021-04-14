@@ -3,8 +3,8 @@
         <sub class="component-title">Method:</sub>
 
         <h1>Contador: {{ contador }}</h1>
-        <div class="red" @click="imprime">
-            <button v-on:click.stop="incrementCount">Incrementar</button>
+        <div>
+            <button v-on:click="incrementCount">Incrementar</button>
             <button @click="resetCount('reset param', $event)">Resetar</button>
         </div>
     </div>
